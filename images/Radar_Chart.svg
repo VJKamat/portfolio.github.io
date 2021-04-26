@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430.142" height="333.891" viewBox="0 0 430.142 333.891">
+  <g id="Radar_Chart" transform="translate(-1240.197 -2820.117)">
+    <line id="Line_12" data-name="Line 12" x2="293" transform="translate(1304.248 2988.5)" fill="none" stroke="#8e8e8e" stroke-miterlimit="10" stroke-width="0.5"/>
+    <line id="Line_11" data-name="Line 11" x2="2" y2="279" transform="translate(1450.248 2848.5)" fill="none" stroke="#8e8e8e" stroke-miterlimit="10" stroke-width="0.5"/>
+    <line id="Line_13" data-name="Line 13" x2="204" y2="200" transform="translate(1348.248 2887.5)" fill="none" stroke="#8e8e8e" stroke-miterlimit="10" stroke-width="0.5"/>
+    <line id="Line_14" data-name="Line 14" x1="203" y2="201" transform="translate(1349.248 2887.5)" fill="none" stroke="#8e8e8e" stroke-miterlimit="10" stroke-width="0.5"/>
+    <circle id="Ellipse_50" data-name="Ellipse 50" cx="64.489" cy="64.489" r="64.489" transform="translate(1385.343 2926.24)" fill="none" stroke="#8e8e8e" stroke-miterlimit="10" stroke-width="0.5"/>
+    <ellipse id="Ellipse_51" data-name="Ellipse 51" cx="98.797" cy="98.797" rx="98.797" ry="98.797" transform="translate(1351.913 2889.121)" fill="none" stroke="#8e8e8e" stroke-miterlimit="10" stroke-width="0.5"/>
+    <ellipse id="Ellipse_52" data-name="Ellipse 52" cx="146.495" cy="139.801" rx="146.495" ry="139.801" transform="translate(1304.214 2848.117)" fill="none" stroke="#8e8e8e" stroke-miterlimit="10" stroke-width="0.5"/>
+    <path id="Path_375" data-name="Path 375" d="M139.823,139.995s55.785-43.387,60.709-41.417,44.484,18.548,53.347,18.548,46.782-14.212,46.782-14.212v59.024l-10.826,39.641s-18.668,58.189-26.118,60.947c-13.3,4.924-63.185,36.062-63.185,36.062l-31.967-65.247L95.807,201.579Z" transform="translate(1249.639 2786.659)" fill="#46c3f4" stroke="#2676bd" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+    <path id="Path_376" data-name="Path 376" d="M158.4,155.049l44.891-83.432s43.912,43.872,52.775,43.872,30.2.821,30.2.821L302.848,160.3,321.4,199.943l-73.7,43.088-44.976,53.922-21.667-75.425L74.193,199.943Z" transform="translate(1247.453 2788.295)" fill="#71c9d5" stroke="#2676bd" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+    <path id="Path_377" data-name="Path 377" d="M153.311,153.85l43.726-31.434L221.2,137.928,240.572,155l25.443,18.22,50.294,25.525-74.234,43.938L197.06,314.549l-57.314-59.3,11.572-57.061Z" transform="translate(1254.083 2789.494)" fill="#82c183" stroke="#2676bd" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+    <path id="Path_378" data-name="Path 378" d="M126.36,269.294l-8.043-73.209,50.229-29.054,31.147-27.248,72.922,56.63,12.04,84.479-86.4-26.7Z" transform="translate(1251.916 2791.251)" fill="#6694ce" stroke="#2676bd" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+    <path id="Path_379" data-name="Path 379" d="M122.043,271.6l10.505-76.492,47.766-17.235,18.22-21.913,38.41,1.724,24.376,37.179-26.1,34.963L197.879,271.6Z" transform="translate(1252.293 2792.886)" fill="#62c5d7" stroke="#2676bd" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+    <text id="Design" transform="translate(1583.85 2881.172)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-23.452" y="0">Design</tspan></text>
+    <text id="Graphics" transform="translate(1640.339 2994)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-29.524" y="0">Graphics</tspan></text>
+    <text id="Art" transform="translate(1570.391 3106.683)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-10.737" y="0">Art</tspan></text>
+    <text id="Coding" transform="translate(1452.248 3150.008)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-24.51" y="0">Coding</tspan></text>
+    <text id="Photography" transform="translate(1301.446 3109.683)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-44.279" y="0">Photography</tspan></text>
+    <text id="Music" transform="translate(1321.646 2881.172)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.028" y="0">Music</tspan></text>
+    <text id="Reading" transform="translate(1268.197 2991.21)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-27.744" y="0">Reading</tspan></text>
+    <text id="UI" transform="translate(1449.832 2836.117)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-7.46" y="0">UI</tspan></text>
+  </g>
+</svg>

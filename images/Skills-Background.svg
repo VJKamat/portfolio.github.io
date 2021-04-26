@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1938.532" height="442.035" viewBox="0 0 1938.532 442.035">
+  <defs>
+    <filter id="Skills-Background" x="0" y="0" width="1938.532" height="442.035" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Skills-Background)">
+    <path id="Skills-Background-2" data-name="Skills-Background" d="M-1.586,1271.98l1919.446-.209-.131,422.543H1180.347l-134.382.49s2.732-90.727-87.744-92.745C862.271,1605.5,868.1,1694.8,868.1,1694.8H721.922l-697.386-.418H-1.672Z" transform="translate(11.17 -1265.27)" fill="#ff64cb" stroke="#707070" stroke-width="1"/>
+  </g>
+</svg>

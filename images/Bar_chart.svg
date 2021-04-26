@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="566.556" height="257.262" viewBox="0 0 566.556 257.262">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0081e4"/>
+      <stop offset="1" stop-color="#ff64cb"/>
+    </linearGradient>
+  </defs>
+  <g id="Bar_chart" transform="translate(-175.272 -2848.117)">
+    <line id="Line_3" data-name="Line 3" x2="508.231" transform="translate(233.597 2856.798)" fill="rgba(0,0,0,0)" stroke="#aaa" stroke-width="1"/>
+    <line id="Line_4" data-name="Line 4" x2="508.231" transform="translate(233.597 2908.189)" fill="rgba(0,0,0,0)" stroke="#aaa" stroke-width="1"/>
+    <line id="Line_5" data-name="Line 5" x2="508.231" transform="translate(233.597 2958.886)" fill="rgba(0,0,0,0)" stroke="#aaa" stroke-width="1"/>
+    <line id="Line_6" data-name="Line 6" x2="508.231" transform="translate(233.597 3010.277)" fill="rgba(0,0,0,0)" stroke="#aaa" stroke-width="1"/>
+    <line id="Line_8" data-name="Line 8" x2="508.231" transform="translate(233.597 3069.258)" fill="rgba(0,0,0,0)" stroke="#aaa" stroke-width="1"/>
+    <text id="_3_Yrs" data-name="3 Yrs" transform="translate(191.401 3070.933)" fill="#949494" font-size="11" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-11.814" y="0">3 Yrs</tspan></text>
+    <text id="_6_Yrs" data-name="6 Yrs" transform="translate(190.775 3012.144)" fill="#949494" font-size="11" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-11.83" y="0">6 Yrs</tspan></text>
+    <text id="_9_Yrs" data-name="9 Yrs" transform="translate(190.775 2961.934)" fill="#949494" font-size="11" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-11.83" y="0">9 Yrs</tspan></text>
+    <text id="_12_Yrs" data-name="12 Yrs" transform="translate(190.272 2911.025)" fill="#949494" font-size="11" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-14.027" y="0">12 Yrs</tspan></text>
+    <text id="_15_Yrs" data-name="15 Yrs" transform="translate(190.272 2860.117)" fill="#949494" font-size="11" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-14.027" y="0">15 Yrs</tspan></text>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(287.392 3034.517)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="43.801" height="35.041" stroke="none"/>
+      <rect x="0.5" y="0.5" width="42.801" height="34.041" fill="none"/>
+    </g>
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(375.291 3010.277)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="43.801" height="58.655" stroke="none"/>
+      <rect x="0.5" y="0.5" width="42.801" height="57.655" fill="none"/>
+    </g>
+    <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(463.189 2987.587)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="43.801" height="81.345" stroke="none"/>
+      <rect x="0.5" y="0.5" width="42.801" height="80.345" fill="none"/>
+    </g>
+    <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(551.087 2888.474)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="43.801" height="180.458" stroke="none"/>
+      <rect x="0.5" y="0.5" width="42.801" height="179.458" fill="none"/>
+    </g>
+    <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(656.281 2888.633)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="43.801" height="180.458" stroke="none"/>
+      <rect x="0.5" y="0.5" width="42.801" height="179.458" fill="none"/>
+    </g>
+    <text id="CSS" transform="translate(304.705 3101.38)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-12.825" y="0">CSS</tspan></text>
+    <text id="Illustrator" transform="translate(389.793 3101.38)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-33.036" y="0">Illustrator</tspan></text>
+    <text id="Photoshop" transform="translate(484.193 3101.38)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-36.969" y="0">Photoshop</tspan></text>
+    <text id="WPF" transform="translate(567.78 3101.38)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-15.396" y="0">WPF</tspan></text>
+    <text id="Blend" transform="translate(657.841 3101.38)" fill="#7c7c7c" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-19.369" y="0">Blend</tspan></text>
+  </g>
+</svg>

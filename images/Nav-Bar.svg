@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1938" height="218.001" viewBox="0 0 1938 218.001">
+  <defs>
+    <filter id="Subtraction_2" x="0" y="0" width="1938" height="218.001" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Nav-Bar" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Subtraction_2)">
+      <path id="Subtraction_2-2" data-name="Subtraction 2" d="M1920,205H277.107a105.05,105.05,0,0,0,0-200H1920V205ZM212.893,205H0V5H212.89a105.051,105.051,0,0,0,0,200h.006Z" transform="translate(9 1)" fill="#8700ff"/>
+    </g>
+  </g>
+</svg>

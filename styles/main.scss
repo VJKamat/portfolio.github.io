@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.nav-container{
+    
+    background: #8700FF;
+
+    a{
+        color: white;
+    }
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+
+    .logo{
+        width: 5em;
+        margin: 1em;
+        vertical-align: middle;
+    }
+
+    nav{
+          display: flex;
+        ul{
+            display: flex;
+            vertical-align: middle;
+            margin: auto;
+            a{
+                padding: 0 1em;
+                display: inline;
+            }
+        }
+
+    }
+}
+
+
+
+.hero{
+    color: #484848;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+}
+
+.hero-design{
+    width: 50%;
+    margin: 0 auto;
+ 
+}
+
+
+.scroll
+{
+    margin: 0 auto;
+    width: 30px;
+    margin-top: 3em;
+}
+
+
+section{
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.skills{
+    // background: url('/images/Skills-Background.svg') no-repeat;
+    background-color: #FF64CB;
+    align-content: center;
+
+}
+
+
+
+.skils-container ul li{
+    background: white;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    margin: 0 auto;
+    margin-bottom: 2em;
+
+    .icon-container{
+            
+            display: grid;
+            place-content: center;
+            margin: 0 auto;;
+
+            &.one{
+                width: 50px;
+                height: 55px;
+            }
+            &.two{
+                width: 50px;
+            }
+            &.three{
+                width: 50px;
+                height: 55px;
+            }
+        }
+}
+
+.skill_desc{
+    font-size: 15px;
+}
+
+
+
+h2 {
+    
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin-bottom: 3em;
+    margin-left: -40px;
+    margin-right: -30px;
+
+    
+    font-size: 20px;
+    font-weight: 600;
+    color: #0081E4;
+ } 
+ 
+ h2 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+.skill-title{
+    font-weight: bold;
+}
+
+.box-title{
+    font-weight: 600;
+    color: #0081E4;
+}
+
+
+
+.featured-desc{
+    margin-bottom: 1em;;
+}
+
+section{
+    text-align: center;
+}
+
+
+.chart_reactangle {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+    padding-top: 1em;
+    border: 1px solid rgb(155, 155, 155);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .1); 
+    border-radius: 10px;
+    margin-bottom: 2em;
+    
+   backdrop-filter: blur(20px);     
+  }
+  
+.footer{
+    background: #8700FF;
+    height: 3em;
+    align-content: center;
+    display: flex;
+    padding: 1em;
+
+    p{
+        color: white;
+        margin: auto;
+    }
+}
+
+
+.ForBrowser{
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 800px){
+
+    .hero{
+        margin-bottom: 250px;
+    }
+
+
+    .skils-container ul {
+       
+
+        margin-top: -300px;
+        display: grid;
+        grid-template-columns: repeat(3, auto); 
+        grid-gap: 1em;
+
+    }
+
+   
+    .skill-card{
+        
+        backdrop-filter: blur(15px);
+        background: rgba(255, 255, 255, 0.5) !important;
+        border: 1px solid #707070;
+        max-width: 200px;
+        
+    }
+    
+    .chartbox{
+        margin: 0 auto;
+    }
+    .chart_reactangle{
+        margin: 4em auto;
+        background-color: rgba(255, 255, 255, 0.2);
+        width: 50vw;
+        
+    }
+    .Bar-Chart{
+        margin-top: 4em;
+        
+     
+    }
+    .Radar-Chart{
+        bottom: 0;
+        width: 80%;
+    }
+     
+}
+
+
+ @media only screen and (min-width: 1200px){
+
+
+    //  .wrapper{
+    //      width: 1920px; 
+	//      margin: 0 auto;
+    //  }
+
+    .ForBrowser{
+        display: block;
+    }
+
+
+    .skill-card{
+        
+        backdrop-filter: blur(15px);
+        background: rgba(255, 255, 255, 0.5) !important;
+        border: 1px solid #707070;
+        max-width: 200px;
+        height: 300px;
+        line-height: 30px;
+    }
+
+    .skill_desc{
+        margin-bottom: 3em;
+    }
+
+
+    .nav-container{
+    
+        box-shadow: 1px 5px 4px 0px rgba(0,0,0,0.53);
+        height: auto;
+        margin: 0;
+
+        .logo{
+            width: 8em;
+            display: flex;
+        }
+
+        a{
+            margin: 1em;
+            font-weight: 600;
+        }
+
+    }
+
+
+    header{
+        padding: 2em 1em 1em 4em;
+    }
+
+
+    .social-header{
+        padding: 2em 4em 2em 0;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            width: 10em;
+            float: right;   
+            
+            
+
+            img{
+                height: 24px;
+                display: flex;
+            }
+        }
+    }
+
+
+
+    .hero-content{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        
+
+        h1{
+            font-size: 3.5vw;
+            text-align: left;
+            font-weight: 600;
+        }
+        .content{
+            width: 100%;
+            margin: 0 auto;
+
+            width: 100%;
+            padding: 6vw;
+            
+        }
+    }
+
+    .hero-design{
+        width: 40vw;
+        margin: 0 auto;
+    }
+
+
+    .career_roadmap{
+        margin-top: 6em;
+        padding: 0;
+    }
+
+    .career-guy{
+        width: 80px;
+        margin: 0 0 -150px -1000px;
+        z-index: 100;
+
+    }
+
+
+    .scroll
+    {
+        margin-top: 8em;
+    }
+
+    .charts{
+        background: url(/images/Chart_Background.svg) no-repeat;
+        background-position: center;
+        position: relative;
+    }
+     .chartbox{
+         margin-top: 6em;;
+         display: grid;
+         
+         grid-template-columns: 50%  50%;
+         
+     }
+     .chart_reactangle{
+         margin: 2em;
+         background-color: rgba(255, 255, 255, 0.2);
+         width: 400px;
+         height: 300px;
+     }
+  
+     .chart_reactangle{
+     
+    
+         &.one{
+             grid-column: 1;
+             margin:0 auto;
+         }
+         &.two{
+             grid-column: 2;
+             margin:0 auto;
+             align-content: center;
+          
+         }
+     }
+
+     .chart-guy{
+         height: 150px;
+         margin-top: 215px;
+         margin-left: 480px;
+         z-index: 1;
+         position: absolute;
+     }
+
+
+     .footer_section{
+         position: relative;
+         margin-top: 18em;
+     }
+
+     .plant{
+         position: absolute;
+         width: 40px;
+         margin-top: -55px;
+         margin-left: 10px;
+     }
+     .coffee{
+        position: absolute;
+        width: 20px;
+        margin-left: 90px;
+        margin-top: -28px;
+    }
+    .laptop-guy{
+        position: absolute;
+        width: 140px;
+        margin-left: 120px;
+        margin-top: -170px;
+    }
+    .construction-guys{
+        position: absolute;
+        float: right;
+        width: 500px;
+        margin-left: 50vw;
+        margin-top: -240px;
+    }
+
+    .footer{
+        height: 300px;
+        background: url("/images/Footer_Image.svg") no-repeat;
+        background-position: center;
+    }
+
+ }
