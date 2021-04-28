@@ -365,6 +365,7 @@ section{
 
     .charts{
         background: url(/images/Chart_Background.svg) no-repeat;
+        background-size: 100%;
         background-position: center;
         position: relative;
     }
@@ -443,4 +444,20 @@ section{
         background-position: center;
     }
 
+ }
+
+ .circle{
+     animation :circleAnim 1s infinite alternate-reverse;
+ }
+
+ @keyframes circleAnim{
+     from{
+         transform: translate(944px, 1647px);
+         z-index: 5;;
+     }
+
+     to{
+        transform: translate(944px, 1687px);
+    }
+     
  }

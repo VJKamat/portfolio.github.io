@@ -323,6 +323,7 @@ section {
   }
   .charts {
     background: url(/images/Chart_Background.svg) no-repeat;
+    background-size: 100%;
     background-position: center;
     position: relative;
   }
@@ -391,6 +392,34 @@ section {
     height: 300px;
     background: url("/images/Footer_Image.svg") no-repeat;
     background-position: center;
+  }
+}
+
+.circle {
+  animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@-webkit-keyframes circleAnim {
+  from {
+    -webkit-transform: translate(944px, 1647px);
+            transform: translate(944px, 1647px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(944px, 1687px);
+            transform: translate(944px, 1687px);
+  }
+}
+
+@keyframes circleAnim {
+  from {
+    -webkit-transform: translate(944px, 1647px);
+            transform: translate(944px, 1647px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(944px, 1687px);
+            transform: translate(944px, 1687px);
   }
 }
 /*# sourceMappingURL=main.css.map */
