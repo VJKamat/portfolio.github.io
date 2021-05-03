@@ -20,7 +20,11 @@ img {
 }
 
 .nav-container {
-  background: #8700FF;
+  height: 7em;
+  background: #941BFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .nav-container a {
@@ -38,32 +42,37 @@ header {
 }
 
 header .logo {
-  width: 5em;
-  margin: 1em;
-  vertical-align: middle;
+  width: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  float: right;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  vertical-align: middle;
   margin: auto;
 }
 
 header nav ul a {
+  font-size: 12px;
   padding: 0 1em;
   display: inline;
 }
 
 .hero {
-  color: #484848;
+  color: #0081E4;
   display: -ms-grid;
   display: grid;
   text-align: center;
@@ -71,13 +80,20 @@ header nav ul a {
 }
 
 .hero-design {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
+}
+
+.meet {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #909090;
 }
 
 .scroll {
   margin: 0 auto;
-  width: 30px;
+  width: 20px;
   margin-top: 3em;
 }
 
@@ -321,6 +337,9 @@ section {
   .scroll {
     margin-top: 8em;
   }
+  .card-guy {
+    width: 200px;
+  }
   .charts {
     background: url(/images/Chart_Background.svg) no-repeat;
     background-size: 100%;
@@ -401,25 +420,25 @@ section {
 
 @-webkit-keyframes circleAnim {
   from {
-    -webkit-transform: translate(944px, 1647px);
-            transform: translate(944px, 1647px);
+    -webkit-transform: translate(305px, 658px);
+            transform: translate(305px, 658px);
     z-index: 5;
   }
   to {
-    -webkit-transform: translate(944px, 1687px);
-            transform: translate(944px, 1687px);
+    -webkit-transform: translate(305px, 688px);
+            transform: translate(305px, 688px);
   }
 }
 
 @keyframes circleAnim {
   from {
-    -webkit-transform: translate(944px, 1647px);
-            transform: translate(944px, 1647px);
+    -webkit-transform: translate(305px, 658px);
+            transform: translate(305px, 658px);
     z-index: 5;
   }
   to {
-    -webkit-transform: translate(944px, 1687px);
-            transform: translate(944px, 1687px);
+    -webkit-transform: translate(305px, 688px);
+            transform: translate(305px, 688px);
   }
 }
 /*# sourceMappingURL=main.css.map */

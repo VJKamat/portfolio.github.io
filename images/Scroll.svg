@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="60" viewBox="0 0 30 60">
+  <g id="Scroll" transform="translate(-299 -651)">
+    <g id="Rectangle_62" data-name="Rectangle 62" transform="translate(299 651)" fill="#fff" stroke="#478ac8" stroke-width="3">
+      <rect width="30" height="60" rx="15" stroke="none"/>
+      <rect x="1.5" y="1.5" width="27" height="57" rx="13.5" fill="none"/>
+    </g>
+    <circle id="Ellipse_49" data-name="Ellipse 49" cx="9" cy="9" r="9" transform="translate(305 658)" fill="#478ac8"/>
+  </g>
+</svg>
