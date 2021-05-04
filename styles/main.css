@@ -76,7 +76,7 @@ header nav ul a {
   display: -ms-grid;
   display: grid;
   text-align: center;
-  padding: 4em;
+  padding: 2em;
 }
 
 .hero-design {
@@ -89,12 +89,12 @@ header nav ul a {
   font-size: 12px;
   letter-spacing: 0.1em;
   color: #909090;
+  margin-top: 2em;
 }
 
 .scroll {
   margin: 0 auto;
   width: 20px;
-  margin-top: 3em;
 }
 
 section {
