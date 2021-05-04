@@ -24,12 +24,14 @@ img{
 
 .nav-container{
     
-    height: 7em;
+    height: 20vw;
+    max-height: 120px;
     background: #941BFF;
-    display: flex;
+    justify-content: space-between;
 
     a{
         color: white;
+       
     }
 }
 
@@ -39,7 +41,8 @@ header{
     padding: 1em;
 
     .logo{
-        width: 3em;
+        width: 13vw;
+        max-width: 100px;
         display: flex;
     }
 
@@ -53,7 +56,7 @@ header{
             margin: auto;
 
             a{
-                font-size: 12px;
+                font-size: 14px;
                 padding: 0 1em;
                 display: inline;
             }
