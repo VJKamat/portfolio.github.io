@@ -39,6 +39,8 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    margin-left: 3vw;
+    margin-right: 3vw;
 
     .logo{
         width: 13vw;
@@ -78,6 +80,11 @@ header{
     width: 100%;
     margin: 0 auto;
  
+}
+
+.content{
+
+    font-size:3vw;
 }
 
 .meet{
@@ -223,6 +230,9 @@ section{
 
     .hero{
         margin-bottom: 250px;
+        .hero-design{
+            width: 60vw;
+        }
     }
 
 
@@ -249,17 +259,20 @@ section{
     .chartbox{
         margin: 0 auto;
     }
+
     .chart_reactangle{
         margin: 4em auto;
         background-color: rgba(255, 255, 255, 0.2);
         width: 50vw;
         
     }
+
     .Bar-Chart{
         margin-top: 4em;
         
      
     }
+
     .Radar-Chart{
         bottom: 0;
         width: 80%;
@@ -293,8 +306,8 @@ section{
 
     .nav-container{
     
+        height: 70vw;
         box-shadow: 1px 5px 4px 0px rgba(0,0,0,0.53);
-        height: auto;
         margin: 0;
 
         .logo{
@@ -303,15 +316,15 @@ section{
         }
 
         a{
-            margin: 1em;
             font-weight: 600;
+            font-size: 16px;
         }
 
     }
 
 
     header{
-        padding: 2em 1em 1em 4em;
+        padding: 1em 1em 1em 4em;
     }
 
 
@@ -332,9 +345,9 @@ section{
         }
     }
 
-
-
     .hero-content{
+        margin-top: 6em;
+        margin-bottom: 6em;
         display: grid;
         grid-template-columns: 30% 70%;
         
@@ -360,6 +373,22 @@ section{
     }
 
 
+    .meet{
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0.1em;
+        color: #909090;
+        margin-top: 2em;
+    }
+    
+    
+    .scroll
+    {
+        margin-top: 4em;
+        margin: 0 auto;
+        width: 20px;
+    }
+
     .career_roadmap{
         margin-top: 6em;
         padding: 0;
@@ -369,25 +398,26 @@ section{
         width: 80px;
         margin: 0 0 -150px -1000px;
         z-index: 100;
-
     }
 
 
-    .scroll
-    {
-        margin-top: 8em;
+    .skils-container{
+        position: relative;
     }
-
 
     .card-guy{
-        width: 200px;
+        position: absolute;
+        width: 80px;
+        margin: -320px 0 0 88vw;
     }
+
     .charts{
         background: url(/images/Chart_Background.svg) no-repeat;
         background-size: 100%;
         background-position: center;
         position: relative;
     }
+
      .chartbox{
          margin-top: 6em;;
          display: grid;
@@ -395,6 +425,7 @@ section{
          grid-template-columns: 50%  50%;
          
      }
+
      .chart_reactangle{
          margin: 2em;
          background-color: rgba(255, 255, 255, 0.2);
