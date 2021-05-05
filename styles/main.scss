@@ -192,10 +192,14 @@ section{
     text-align: center;
 }
 
+.career_roadmap{
+    padding: 2em;
+    margin: 0 auto;
+}
 
 .career-guy{
     width: 50px;
-    margin: 0 0 -195px -250px;
+    margin: 0 0 -160px -250px;
     z-index: 100;
 }
 
@@ -263,6 +267,10 @@ section{
         
     }
     
+    .career_roadmap{
+        margin-top: 6em;
+    }
+
     .chartbox{
         margin: 0 auto;
     }
