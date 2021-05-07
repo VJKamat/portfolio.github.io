@@ -205,7 +205,7 @@ h2 span {
 .career_roadmap .career-guy {
   width: 50px;
   margin: 0 0 -125px -250px;
-  z-index: 100;
+  z-index: 1;
 }
 
 .chartbox {
