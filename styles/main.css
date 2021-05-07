@@ -85,7 +85,7 @@ img {
 }
 
 .nav-container header nav ul a {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   padding: 0 1em;
   display: inline;
 }
@@ -261,7 +261,7 @@ h2 span {
         grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
   }
-  .skill-card {
+  .skils-container ul .skill-card {
     -webkit-backdrop-filter: blur(15px);
             backdrop-filter: blur(15px);
     background: rgba(255, 255, 255, 0.5) !important;
