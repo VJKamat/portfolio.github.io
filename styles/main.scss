@@ -211,10 +211,13 @@ h2 {
 
 
 .career_roadmap{
+    padding-top: 4em;
+    position: relative;
 
     .career-guy{
+        position: absolute;
         width: 50px;
-        margin: 0 0 -125px -250px;
+        margin: 840px 0 0 -300px;
         z-index: 1;
     }
 
