@@ -197,10 +197,6 @@ h2 span {
   color: var(--color-primary200);
 }
 
-.career_roadmap {
-  padding-top: 4em;
-}
-
 .career_roadmap .career-guy {
   width: 50px;
   margin: 0 0 -125px -250px;
