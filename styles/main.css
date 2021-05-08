@@ -134,7 +134,7 @@ section {
 .skills .skils-container ul li {
   background: white;
   padding: 1em;
-  margin: 2em;
+  margin: 1em;
   border-radius: 1em;
   display: -ms-grid;
   display: grid;
@@ -198,7 +198,7 @@ h2 span {
 }
 
 .career_roadmap {
-  padding-top: 4em;
+  padding-top: 2em;
   position: relative;
 }
 
