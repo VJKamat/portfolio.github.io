@@ -202,11 +202,15 @@ h2 span {
   position: relative;
 }
 
-.career_roadmap .career-guy {
+.charts {
+  position: relative;
+}
+
+.charts .career-guy {
   position: absolute;
   width: 50px;
-  margin: 840px 0 0 -300px;
-  z-index: 1;
+  margin: -45px 0 0 -130px;
+  z-index: 100;
 }
 
 .chartbox {

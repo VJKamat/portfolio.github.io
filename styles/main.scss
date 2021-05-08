@@ -214,16 +214,21 @@ h2 {
     padding-top: 4em;
     position: relative;
 
-    .career-guy{
-        position: absolute;
-        width: 50px;
-        margin: 840px 0 0 -300px;
-        z-index: 1;
-    }
+    
 
     
 }
 
+
+.charts{
+    position: relative;
+    .career-guy{
+        position: absolute;
+        width: 50px;
+        margin: -45px 0 0 -130px;
+        z-index: 100;
+    }
+}
 .chartbox{
     margin-top: 4em;
 
