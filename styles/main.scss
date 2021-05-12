@@ -267,6 +267,10 @@ h2 {
 }
 
 
+    .ForMobile{
+        display: block;
+    }
+
 
 @media only screen and (min-width: 800px){
 
@@ -336,6 +340,10 @@ h2 {
         display: block;
     }
 
+
+    .ForMobile{
+        display: none;
+    }
 
     .skill-card{
         
