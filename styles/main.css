@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+@font-face {
+  font-family: 'Poppins';
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+  font-size: 16px;
+}
+
 :root {
   --color-primary100: #6E00FF;
   --color-primary200: #0081E4;
@@ -17,7 +23,7 @@
 body {
   height: 100vh;
   margin: 0;
-  font-family: 'Poppins', 'Segoe UI';
+  font-family: 'Poppins', 'Segoe UI', 'Arial';
 }
 
 ul {
@@ -121,12 +127,14 @@ img {
 }
 
 .sub-main {
+  margin: -2em 0 2em 0;
   text-transform: uppercase;
   color: #4B94CD;
   font-size: 1rem;
 }
 
 .sub-sub {
+  margin: 0 0 2em 0;
   font-size: 0.85rem;
   color: #767676;
 }
