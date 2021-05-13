@@ -120,6 +120,17 @@ img {
   width: 20px;
 }
 
+.sub-main {
+  text-transform: uppercase;
+  color: #4B94CD;
+  font-size: 1rem;
+}
+
+.sub-sub {
+  font-size: 0.85rem;
+  color: #767676;
+}
+
 section {
   padding: 2em;
   text-align: center;
