@@ -5,6 +5,12 @@
   font-size: 16px;
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+  font-size: 16px;
+}
+
 :root {
   --color-primary100: #6E00FF;
   --color-primary200: #0081E4;
@@ -144,54 +150,139 @@ section {
   text-align: center;
 }
 
-.skills {
-  background-color: var(--color-primary300);
+.my-world {
   -ms-flex-line-pack: center;
       align-content: center;
 }
 
-.skills .skils-container ul li {
-  background: white;
-  padding: 1em;
-  margin: 1em;
-  border-radius: 1em;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (auto)[3];
-      grid-template-rows: repeat(3, auto);
+.my-world a:focus {
+  fill: pink;
+  stroke: green;
+  stroke-width: 1;
+  -webkit-transform: translate(-267.037 -114.388);
+          transform: translate(-267.037 -114.388);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
 }
 
-.skills .skils-container ul li .icon-container {
-  display: -ms-grid;
-  display: grid;
-  place-content: center;
-  margin: 0 auto;
-}
-
-.skills .skils-container ul li .icon-container.one {
-  width: 50px;
-  height: 55px;
-}
-
-.skills .skils-container ul li .icon-container.two {
-  width: 50px;
-}
-
-.skills .skils-container ul li .icon-container.three {
-  width: 50px;
-  height: 55px;
-}
-
-.skills .skill_desc {
+.skill_desc {
   font-size: 0.9rem;
 }
 
-.skills .skill-title {
+.skill-title {
   font-weight: bold;
 }
 
-.skills .featured-desc {
+.featured-desc {
   margin-bottom: 1em;
+}
+
+.button-close {
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px;
+  background: #ccc;
+  color: #555;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.overlayCamera {
+  position: absolute;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition: all 0.5s cubic-bezier(0.59, -0.17, 0.3, 1.67);
+  transition: all 0.5s cubic-bezier(0.59, -0.17, 0.3, 1.67);
+}
+
+.overlayCamera img {
+  width: 30px;
+  margin-bottom: 1em;
+}
+
+.overlayCamera.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 1000;
+}
+
+.overlayAwards {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition: all 0.5s cubic-bezier(0.59, -0.17, 0.3, 1.67);
+  transition: all 0.5s cubic-bezier(0.59, -0.17, 0.3, 1.67);
+}
+
+.overlayAwards.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 1000;
+}
+
+.modal-body > * {
+  display: block;
+  margin: 0 auto;
+}
+
+.images img {
+  width: 100px;
+}
+
+.modal {
+  -webkit-transform: translate(0px, -50px);
+          transform: translate(0px, -50px);
+  -webkit-transition: all 0.7s cubic-bezier(0.59, -0.17, 0.3, 1.67);
+  transition: all 0.7s cubic-bezier(0.59, -0.17, 0.3, 1.67);
+  position: relative;
+  padding: 30px;
+  background-color: white;
+  color: #4d4d4d;
+  text-align: center;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+.modal .close-btn {
+  position: absolute;
+  padding: 3px 9px;
+  font-size: 24px;
+  text-align: center;
+  background: none;
+  border: none;
+  color: #9c9c9c;
+  top: -1px;
+  right: 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 h2 {
