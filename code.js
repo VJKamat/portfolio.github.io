@@ -1,5 +1,5 @@
 $(function () {
-    $('.button-close').click(function () {
+    $('.linkAnchor').click(function () {
         $('.overlayCamera').addClass('is-open');
         return false;
     });

@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Mukta:700");
 @font-face {
   font-family: 'Poppins';
   src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
@@ -15,6 +14,7 @@
 :root {
   --color-primary100: #6E00FF;
   --color-primary200: #0081E4;
+  --color-primary150: #2691e2;
   --color-primary300: #FF64CB;
   --color-neutral100: #FFFFFF;
   --color-neutral400: #707070;
@@ -178,22 +178,7 @@ section {
   margin-bottom: 1em;
 }
 
-.button-close {
-  width: 120px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 20px;
-  padding: 10px;
-  background: #ccc;
-  color: #555;
-  text-decoration: none;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.overlayCamera {
+.overlay {
   position: absolute;
   margin: 0 auto;
   display: -webkit-box;
@@ -212,9 +197,63 @@ section {
   transition: all 0.5s cubic-bezier(0.59, -0.17, 0.3, 1.67);
 }
 
-.overlayCamera img {
-  width: 30px;
-  margin-bottom: 1em;
+.overlay img {
+  width: 40px;
+  -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.11);
+          box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.11);
+}
+
+.overlay .modal {
+  -webkit-transform: translate(0px, -50px);
+          transform: translate(0px, -50px);
+  -webkit-transition: all 0.7s cubic-bezier(0.59, -0.17, 0.3, 1.67);
+  transition: all 0.7s cubic-bezier(0.59, -0.17, 0.3, 1.67);
+  position: relative;
+  padding: 1.2em;
+  overflow: hidden;
+  width: 333px;
+  height: 293px;
+  border-radius: 20px;
+  background: #fff;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.31);
+          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.31);
+}
+
+.overlay .modal .modal-content .modal-body .modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.3em;
+}
+
+.overlay .modal .modal-content .modal-body .modal-header span {
+  padding-left: 0.6em;
+  font-size: 0.9rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.overlay .modal .modal-content .modal-footer {
+  padding-top: 1.5em;
+  margin: 0 auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.overlay .modal .modal-title {
+  color: var(--color-primary200);
+}
+
+.overlay .modal .images {
+  margin-top: 0.8em;
+}
+
+.overlay .modal .images img {
+  width: 90px;
 }
 
 .overlayCamera.is-open {
@@ -223,71 +262,92 @@ section {
   z-index: 1000;
 }
 
-.overlayAwards {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: -10%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  pointer-events: none;
-  opacity: 0;
-  -webkit-transition: all 0.5s cubic-bezier(0.59, -0.17, 0.3, 1.67);
-  transition: all 0.5s cubic-bezier(0.59, -0.17, 0.3, 1.67);
-}
-
 .overlayAwards.is-open {
   opacity: 1;
   pointer-events: auto;
   z-index: 1000;
 }
 
-.modal-body > * {
-  display: block;
-  margin: 0 auto;
-}
-
-.images {
-  margin-top: 1em;
-}
-
-.images img {
-  width: 100px;
-}
-
-.modal {
-  -webkit-transform: translate(0px, -50px);
-          transform: translate(0px, -50px);
-  -webkit-transition: all 0.7s cubic-bezier(0.59, -0.17, 0.3, 1.67);
-  transition: all 0.7s cubic-bezier(0.59, -0.17, 0.3, 1.67);
-  position: relative;
-  padding: 30px;
-  background-color: white;
-  color: #4d4d4d;
-  text-align: center;
-  overflow: hidden;
-  -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.4);
-}
-
-.modal .close-btn {
-  position: absolute;
-  padding: 3px 9px;
-  font-size: 24px;
-  text-align: center;
-  background: none;
+button {
+  height: 45px;
+  width: 180px;
+  line-height: 40px;
+  text-transform: uppercase;
+  background: var(--color-primary200);
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-neutral100);
   border: none;
-  color: #9c9c9c;
-  top: -1px;
-  right: 0;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+  height: 45px;
+  width: 180px;
+  line-height: 40px;
+  text-transform: uppercase;
+  background: var(--color-primary150);
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-neutral100);
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+button:active {
+  height: 45px;
+  width: 180px;
+  line-height: 40px;
+  text-transform: uppercase;
+  background: var(--color-primary150);
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-neutral100);
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.button-label {
+  background: none;
+  color: var(--color-neutral900) !important;
+  height: 45px;
+  width: 180px;
+  line-height: 40px;
+  text-transform: none !important;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-neutral100);
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.button-label:hover {
+  background: none;
+  color: var(--color-neutral400) !important;
+  height: 45px;
+  width: 180px;
+  line-height: 40px;
+  text-transform: none !important;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-neutral100);
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 h2 {
@@ -616,99 +676,5 @@ h2 span {
     -webkit-transform: translate(305px, 688px);
             transform: translate(305px, 688px);
   }
-}
-
-button {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  background: transparent;
-  padding: 0;
-  font-size: inherit;
-  font-family: inherit;
-}
-
-button.learn-more {
-  width: 12rem;
-  height: auto;
-}
-
-button.learn-more .circle {
-  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: relative;
-  display: block;
-  margin: 0;
-  width: 2rem;
-  height: 2rem;
-  background: var(--color-primary100);
-  border-radius: 1.725rem;
-}
-
-button.learn-more .circle .icon {
-  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  background: #fff;
-}
-
-button.learn-more .circle .icon.arrow {
-  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  left: 0.125rem;
-  width: 1.125rem;
-  height: 0.125rem;
-  background: none;
-}
-
-button.learn-more .circle .icon.arrow::before {
-  position: absolute;
-  content: '';
-  top: -0.25rem;
-  right: 0.0625rem;
-  width: 0.625rem;
-  height: 0.625rem;
-  border-top: 0.125rem solid #fff;
-  border-right: 0.125rem solid #fff;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-
-button.learn-more .button-text {
-  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0.55rem 0;
-  margin: 0 0 0 1.85rem;
-  color: #282936;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-button:hover .circle {
-  width: 100%;
-}
-
-button:hover .circle .icon.arrow {
-  background: #fff;
-  -webkit-transform: translate(1rem, 0);
-          transform: translate(1rem, 0);
-}
-
-button:hover .button-text {
-  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

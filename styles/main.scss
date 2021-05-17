@@ -17,6 +17,7 @@
 :root{
 --color-primary100: #6E00FF;
 --color-primary200: #0081E4;
+--color-primary150: #2691e2;
 --color-primary300: #FF64CB;
 
 --color-neutral100: #FFFFFF;
@@ -188,22 +189,7 @@ section{
 
 
 
-
-.button-close {
-  width: 120px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 20px;
-  padding: 10px;
-  background: #ccc;
-  color: #555;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-}
-
-.overlayCamera {
+.overlay {
   position: absolute;
   margin: 0 auto;
   display: flex;
@@ -214,32 +200,65 @@ section{
   opacity: 0;
   transition: all 0.5s cubic-bezier(0.59, -0.17, 0.3, 1.67);
 
-  img{
-      width:30px;
-      margin-bottom: 1em;
-  }
+    img{
+        width:40px;
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.11);
+    }
+
+
+    .modal {
+        transform: translate(0px, -50px);
+        transition: all 0.7s cubic-bezier(0.59, -0.17, 0.3, 1.67);
+        position: relative;
+        padding: 1.2em;
+        overflow: hidden;
+        width: 333px;
+        height: 293px;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.31);
+
+        .modal-content{
+            .modal-body{
+                .modal-header{
+                    display: flex;
+                    align-items: center;
+                    padding: 0.3em;
+                    
+                    span{
+                        padding-left: 0.6em;
+                        font-size: 0.9rem;
+                        align-self: flex-end;
+                        
+                    }
+                }
+            }
+
+            .modal-footer{
+                padding-top: 1.5em;
+                margin: 0 auto;
+                align-self: center;
+            }
+        }
+
+        .modal-title{
+            color: var(--color-primary200)
+        }
+
+        .images{
+            margin-top: 0.8em;
+            img{
+                width: 90px;
+            }
+        }
+    }
+
 }
 
 .overlayCamera.is-open {
   opacity: 1;
   pointer-events: auto;
   z-index: 1000;
-}
-
-
-
-
-.overlayAwards {
-  position: absolute;
- 
-  
-  display: flex;
-  margin-top: -10%;
-  justify-content: center;
-  align-items: center;
-  pointer-events: none;
-  opacity: 0;
-  transition: all 0.5s cubic-bezier(0.59, -0.17, 0.3, 1.67);
 }
 
 .overlayAwards.is-open {
@@ -249,46 +268,102 @@ section{
 }
 
 
-.modal-body > *
-{
-    display: block;
-    margin: 0 auto;
+button{
+    height: 45px;
+    width: 180px;
+    line-height: 40px;
+    text-transform: uppercase;
+    background: var(--color-primary200);
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-neutral100);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
 
-    
 }
 
-.images{
-    margin-top: 1em;
-        img{
-            width: 100px;
-        }
-    }
 
-.modal {
-  transform: translate(0px, -50px);
-  transition: all 0.7s cubic-bezier(0.59, -0.17, 0.3, 1.67);
-  position: relative;
-  padding: 30px;
-  background-color: rgb(255, 255, 255);
-  color: #4d4d4d;
-  text-align: center;
-  overflow: hidden;
-  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.4);
+button:hover{
+    height: 45px;
+    width: 180px;
+    line-height: 40px;
+    text-transform: uppercase;
+    background: var(--color-primary150);
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-neutral100);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+
 }
 
-.modal .close-btn {
-  position: absolute;
-  padding: 3px 9px;
-  font-size: 24px;
-  text-align: center;
-  background: none;
-  border: none;
-  color: #9c9c9c;
-  top: -1px;
-  right: 0;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
+
+button:active{
+    height: 45px;
+    width: 180px;
+    line-height: 40px;
+    text-transform: uppercase;
+    background: var(--color-primary150);
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-neutral100);
+    border: none;
+    border-radius: 15px;
+    box-shadow:none;
+
 }
+
+.button-label{
+    background: none;
+    color: var(--color-neutral900) !important;
+    height: 45px;
+    width: 180px;
+    line-height: 40px;
+    text-transform: none !important;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-neutral100);
+    border: none;
+    border-radius: 15px;
+     box-shadow: none;
+}
+
+.button-label:hover{
+    background: none;
+    color: var(--color-neutral400) !important;
+    height: 45px;
+    width: 180px;
+    line-height: 40px;
+    text-transform: none !important;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-neutral100);
+    border: none;
+    border-radius: 15px;
+     box-shadow: none;
+}
+
+
+// .modal .close-btn {
+//   position: absolute;
+//   padding: 3px 9px;
+//   font-size: 24px;
+//   text-align: center;
+//   background: none;
+//   border: none;
+//   color: #9c9c9c;
+//   top: -1px;
+//   right: 0;
+//   cursor: pointer;
+//   transition: all 0.3s ease-in-out;
+// }
 
 
 
@@ -684,98 +759,3 @@ h2 {
 
 
  
-@import url('https://fonts.googleapis.com/css?family=Mukta:700');
-
-$bg: #f3f8fa;
-$white: #fff;
-$black: #282936;
-
-@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
-  transition: $property $duration $ease;
-}
-
-
-
-button {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  background: transparent;
-  padding: 0;
-  font-size: inherit;
-  font-family: inherit;
-  &.learn-more {
-    width: 12rem;
-    height: auto;
-    .circle {
-      @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
-      position: relative;
-      display: block;
-      margin: 0;
-      width: 2rem;
-      height: 2rem;
-      background: var(--color-primary100);
-      border-radius: 1.725rem;
-      .icon {
-        @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        background: $white;
-        &.arrow {
-          @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
-          left: 0.125rem;
-          width: 1.125rem;
-          height: 0.125rem;
-          background: none;
-          &::before {
-            position: absolute;
-            content: '';
-            top: -0.25rem;
-            right: 0.0625rem;
-            width: 0.625rem;
-            height: 0.625rem;
-            border-top: 0.125rem solid #fff;
-            border-right: 0.125rem solid #fff;
-            transform: rotate(45deg);
-          }
-        }
-      }
-    }
-    .button-text {
-      @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      padding: 0.55rem 0;
-      margin: 0 0 0 1.85rem;
-      color: $black;
-      font-weight: 700;
-      line-height: 1;
-      text-align: center;
-      text-transform: uppercase;
-    }
-  }
-  &:hover {
-    .circle {
-      width: 100%;
-      .icon {
-        &.arrow {
-        background: $white;
-        transform: translate(1rem, 0);
-        }
-      }
-    }
-    .button-text {
-      color: $white;
-    }
-  }
-}
-
