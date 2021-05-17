@@ -1,5 +1,5 @@
 $(function () {
-    $('.linkAnchor').click(function () {
+    $('.linkCamera').click(function () {
         $('.overlayCamera').addClass('is-open');
         return false;
     });
@@ -9,7 +9,7 @@ $(function () {
     });
 
 
-    $('.btn-Awards').click(function () {
+    $('.linkAwards').click(function () {
         $('.overlayAwards').addClass('is-open');
         return false;
     });

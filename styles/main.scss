@@ -157,36 +157,8 @@ section{
 
 
 .my-world{
-    
     align-content: center;
-
-  
-            a:focus {
-            fill: pink;
-            stroke: green;
-            stroke-width: 1;
-            transform: translate(-267.037 -114.388);
-    transform-origin: 50% 50%;
-            }
-            
 }
-
-    
-    .skill_desc{
-        font-size: 0.9rem;
-    }
-
-    .skill-title{
-        font-weight: bold;
-    }
-
-    
-.featured-desc{
-    margin-bottom: 1em;;
-}
-
-
-
 
 
 .overlay {
@@ -213,7 +185,7 @@ section{
         padding: 1.2em;
         overflow: hidden;
         width: 333px;
-        height: 293px;
+        
         border-radius: 20px;
         background: #fff;
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.31);
