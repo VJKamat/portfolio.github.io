@@ -381,9 +381,9 @@ h2 span {
 }
 
 .chart_reactangle {
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-bottom: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
   padding-top: 1em;
   border: 1px solid #9b9b9b;
   -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
