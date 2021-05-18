@@ -374,6 +374,8 @@ h2 {
 
 
 .figures{
+    background: url(/images/Figures_Background.svg) no-repeat;
+    background-position: center;
     position: relative;
     .career-guy{
         position: absolute;
@@ -384,20 +386,25 @@ h2 {
 }
 .chartbox{
     margin-top: 4em;
-
 }
 
 .chart_reactangle {
+
+   backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 2em;
     
     border: 1px solid rgb(155, 155, 155);
+
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .1); 
     border-radius: 10px;
     margin-bottom: 2em;
     
-   backdrop-filter: blur(20px);     
+    
+   
   }
   
 

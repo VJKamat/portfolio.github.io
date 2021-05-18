@@ -366,6 +366,8 @@ h2 span {
 }
 
 .figures {
+  background: url(/images/Figures_Background.svg) no-repeat;
+  background-position: center;
   position: relative;
 }
 
@@ -381,6 +383,9 @@ h2 span {
 }
 
 .chart_reactangle {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 2em;
@@ -389,8 +394,6 @@ h2 span {
           box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   margin-bottom: 2em;
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
 }
 
 .footer {
