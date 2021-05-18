@@ -368,6 +368,7 @@ h2 span {
 .figures {
   background: url(/images/Figures_Background.svg) no-repeat;
   background-position: center;
+  background-size: 60%;
   position: relative;
 }
 
@@ -421,29 +422,19 @@ h2 span {
 }
 
 @media only screen and (min-width: 800px) {
-  .hero {
-    margin-bottom: 250px;
-  }
   .hero .hero-design {
     width: 60vw;
   }
-  .skils-container ul {
-    margin-top: -300px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (auto)[3];
-        grid-template-columns: repeat(3, auto);
-    grid-gap: 1em;
-  }
-  .skils-container ul .skill-card {
-    -webkit-backdrop-filter: blur(15px);
-            backdrop-filter: blur(15px);
-    background: rgba(255, 255, 255, 0.5) !important;
-    border: 1px solid var(--color-neutral400);
-    max-width: 200px;
+  .sub-sub {
+    margin: 0 0 2em 0;
+    font-size: 1rem;
+    color: #767676;
   }
   .career_roadmap {
-    margin-top: 6em;
+    margin-top: 2em;
+  }
+  .career_roadmap svg {
+    max-width: 45em;
   }
   .chartbox {
     margin: 0 auto;
@@ -454,7 +445,7 @@ h2 span {
     width: 50vw;
   }
   .Bar-Chart {
-    margin-top: 4em;
+    margin-top: 2em;
   }
   .Radar-Chart {
     bottom: 0;
@@ -468,17 +459,6 @@ h2 span {
   }
   .ForMobile {
     display: none;
-  }
-  .skill-card {
-    -webkit-backdrop-filter: blur(15px);
-            backdrop-filter: blur(15px);
-    background: rgba(255, 255, 255, 0.5) !important;
-    max-width: 200px;
-    height: 300px;
-    line-height: 30px;
-  }
-  .skill_desc {
-    margin-bottom: 3em;
   }
   .nav-container {
     height: 70vw;
@@ -573,8 +553,14 @@ h2 span {
   .figures {
     background: url(/images/Chart_Background.svg) no-repeat;
     background-size: 100%;
-    background-position: center;
     position: relative;
+    background-position: center;
+  }
+  .figures .career-guy {
+    position: absolute;
+    width: 50px;
+    margin: -45px 0 0 -530px;
+    z-index: 100;
   }
   .chartbox {
     margin-top: 6em;
@@ -584,8 +570,18 @@ h2 span {
         grid-template-columns: 50%  50%;
   }
   .chart_reactangle {
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    border: 1px solid #9b9b9b;
+    -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 2em;
     margin: 2em;
-    background-color: rgba(255, 255, 255, 0.2);
     width: 400px;
     height: 300px;
   }
@@ -607,6 +603,13 @@ h2 span {
     margin-left: 480px;
     z-index: 1;
     position: absolute;
+  }
+  .Bar-Chart {
+    margin-top: 1em;
+  }
+  .Radar-Chart {
+    bottom: 0;
+    width: 80%;
   }
   .footer_section {
     position: relative;
