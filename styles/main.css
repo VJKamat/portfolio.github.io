@@ -196,6 +196,18 @@ section {
           box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.31);
 }
 
+.overlay .modal .modal-content .modal-body .test1 {
+  color: var(--color-primary200);
+}
+
+.overlay .modal .modal-content .modal-body .test2 {
+  color: var(--color-neutral400);
+}
+
+.overlay .modal .modal-content .modal-body .test3 {
+  color: var(--color-neutral400);
+}
+
 .overlay .modal .modal-content .modal-body .modal-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -251,7 +263,6 @@ button {
   line-height: 40px;
   text-transform: uppercase;
   background: var(--color-primary200);
-  font-family: "Segoe UI";
   font-weight: 600;
   font-size: 1rem;
   color: var(--color-neutral100);
@@ -354,11 +365,11 @@ h2 span {
   position: relative;
 }
 
-.charts {
+.figures {
   position: relative;
 }
 
-.charts .career-guy {
+.figures .career-guy {
   position: absolute;
   width: 50px;
   margin: -45px 0 0 -130px;
@@ -557,7 +568,7 @@ h2 span {
     width: 80px;
     margin: -320px 0 0 88vw;
   }
-  .charts {
+  .figures {
     background: url(/images/Chart_Background.svg) no-repeat;
     background-size: 100%;
     background-position: center;

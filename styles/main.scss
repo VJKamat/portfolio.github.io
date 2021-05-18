@@ -192,6 +192,19 @@ section{
 
         .modal-content{
             .modal-body{
+
+                .test1{
+                    color: var(--color-primary200);
+                }
+
+                .test2{
+                    color: var(--color-neutral400);
+                }
+
+                .test3{
+                    color: var(--color-neutral400);
+                }
+
                 .modal-header{
                     display: flex;
                     align-items: center;
@@ -246,7 +259,6 @@ button{
     line-height: 40px;
     text-transform: uppercase;
     background: var(--color-primary200);
-    font-family: "Segoe UI";
     font-weight: 600;
     font-size: 1rem;
     color: var(--color-neutral100);
@@ -322,26 +334,6 @@ button:active{
      box-shadow: none;
 }
 
-
-// .modal .close-btn {
-//   position: absolute;
-//   padding: 3px 9px;
-//   font-size: 24px;
-//   text-align: center;
-//   background: none;
-//   border: none;
-//   color: #9c9c9c;
-//   top: -1px;
-//   right: 0;
-//   cursor: pointer;
-//   transition: all 0.3s ease-in-out;
-// }
-
-
-
-
-
-
 h2 {
     
     text-align: center; 
@@ -381,7 +373,7 @@ h2 {
 }
 
 
-.charts{
+.figures{
     position: relative;
     .career-guy{
         position: absolute;
@@ -628,7 +620,7 @@ h2 {
         margin: -320px 0 0 88vw;
     }
 
-    .charts{
+    .figures{
         background: url(/images/Chart_Background.svg) no-repeat;
         background-size: 100%;
         background-position: center;

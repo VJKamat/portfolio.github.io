@@ -4317,16 +4317,17 @@
                             </div>
                             <div class="modal-body">
                                 <ul>
-                                    <li><span>"A grader"</span><span> @</span>
-                                        <spap>TCS</spap>
+                                    <li><span class="test1">"A grader"</span><span class="test2"> @</span>
+                                        <spap class="test3">TCS</spap>
                                     </li>
-                                    <li><span>"Star Performer"</span><span> @</span>
-                                        <spap>Sapient</spap>
+                                    <li><span class="test1">"Star Performer"</span><span class="test2"> @</span>
+                                        <spap class="test3">Sapient</spap>
                                     </li>
-                                    <li><span>"Pat on the back"</span><span> @</span>
-                                        <spap>Wells Fargo</spap>
+                                    <li>
+                                        <span class="test1">"Pat on the back"</span><span class="test2"> @</span>
+                                        <spap class="test3">Wells Fargo</spap>
                                     </li>
-                                    <li><span>Microsoft Community Contributor</span></li>
+                                    <li><span class="test1">Microsoft Community Contributor</span></li>
                                 </ul>
                             </div>
 
@@ -4733,19 +4734,21 @@
 
         </section>
 
-        <section class="charts transition2">
+        <section class="figures transition2">
+
             <img src="images/Career-Guy.svg" class="career-guy" />
-            <h2 class="section-header"><span>Some Charts</span></h2>
+
+            <h2 class="section-header"><span>Some Figures</span></h2>
 
             <div class="chartbox">
                 <div class="chart_reactangle one">
-                    <p class="box-title">Experience in Years</p>
-                    <img src="images/Bar_chart.svg" class="Bar-Chart" />
+                    <p class="box-title">SKILLS</p>
+                    <img src="images/Skills.svg" class="Bar-Chart" />
                 </div>
 
                 <div class="chart_reactangle two">
-                    <p class="box-title">What I like</p>
-                    <img src="images/Radar_Chart.svg" class="Radar-Chart" />
+                    <p class="box-title">EXPERIENCE</p>
+                    <img src="images/Experience.svg" class="Radar-Chart" />
 
                 </div>
                 <img src="images/Chart_Guy.svg" class="chart-guy ForBrowser" />
@@ -4838,7 +4841,7 @@
             scrollTrigger: {
                 trigger: '.transition3',
                 start: "top bottom",
-                toggleActions: "restart restart none none"
+                toggleActions: "play restart none none"
             },
 
             x: -200,
@@ -4853,7 +4856,7 @@
             scrollTrigger: {
                 trigger: '.transition4',
                 start: "top bottom",
-                toggleActions: "restart restart none none"
+                toggleActions: "play restart none none"
             },
             x: 200,
             opacity: 0,

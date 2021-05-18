@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="498.352" height="302.627" viewBox="0 0 498.352 302.627">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0" y2="0.516" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff64cb"/>
+      <stop offset="0.92" stop-color="#5e76db"/>
+      <stop offset="1" stop-color="#0081e4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0081e4"/>
+      <stop offset="0.208" stop-color="#6e74d9"/>
+      <stop offset="1" stop-color="#ff64cb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.559" x2="1" y2="0.546" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0081e4"/>
+      <stop offset="0.114" stop-color="#6576da"/>
+      <stop offset="1" stop-color="#ff64cb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0081e4"/>
+      <stop offset="0.187" stop-color="#6875da"/>
+      <stop offset="1" stop-color="#ff64cb"/>
+    </linearGradient>
+  </defs>
+  <g id="Skills" transform="translate(-223.869 -4918.752)">
+    <g id="SkillsGroup1" transform="translate(14 52.311)">
+      <path id="Path_2424" data-name="Path 2424" d="M260.163,229.814a61.975,61.975,0,0,1-34.1,55.38l-8.22-18.27a42,42,0,1,0-39.36,0l-8.22,18.27a62,62,0,1,1,89.9-55.38Zm-36.187,50.84L238.938,312.5h83.621" transform="translate(74.203 4699.124)" fill="none" stroke="#941bff" stroke-miterlimit="10" stroke-width="0.993"/>
+      <path id="Path_2425" data-name="Path 2425" d="M524,229.814a61.975,61.975,0,0,1-34.1,55.38l-8.22-18.27a42,42,0,1,0-39.36,0l-8.22,18.27a62,62,0,1,1,89.9-55.38Z" transform="translate(-189.635 4699.124)" fill="url(#linear-gradient)"/>
+      <text id="_95_" data-name="95%" transform="translate(257.365 4934.282)" fill="#941bff" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">95%</tspan></text>
+      <text id="UI_DESIGN" data-name="UI DESIGN" transform="translate(315.365 5003.938)" fill="#941bff" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">UI DESIGN</tspan></text>
+    </g>
+    <g id="SkillsGroup3" transform="translate(14 10.22)">
+      <path id="Path_2432" data-name="Path 2432" d="M455.071,233.614a62,62,0,1,1,101.51,47.78l-8.67-19.27a42,42,0,1,0-61.68-.01l-8.68,19.28a61.907,61.907,0,0,1-22.48-47.78" transform="translate(-244.706 4898.16)" fill="#fff" stroke="#941bff" stroke-miterlimit="10" stroke-width="0.993"/>
+      <path id="Path_2433" data-name="Path 2433" d="M455.071,233.614a62,62,0,1,1,101.51,47.78l-8.67-19.27a42,42,0,1,0-61.68-.01l-8.68,19.28a61.907,61.907,0,0,1-22.48-47.78" transform="translate(-244.706 4898.16)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_2436" data-name="Path 2436" d="M553.127,273.847,570.995,312.5h83.621" transform="translate(-244.706 4898.16)" fill="none" stroke="#941bff" stroke-miterlimit="10" stroke-width="0.993"/>
+      <text id="_85_" data-name="85%" transform="translate(257.365 5136.938)" fill="#941bff" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">85%</tspan></text>
+      <text id="Creativity" transform="translate(331.365 5202.835)" fill="#941bff" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">CREATIVITY</tspan></text>
+    </g>
+    <g id="SkillsGroup2" transform="translate(14 55.655)">
+      <path id="Path_2429" data-name="Path 2429" d="M969.381-397.222a61.927,61.927,0,0,1-29.06,52.53l-8.33-18.49a41.927,41.927,0,0,0,17.39-34.04,42,42,0,0,0-42-42,42,42,0,0,0-42,42,41.927,41.927,0,0,0,17.39,34.04l-8.33,18.49a61.927,61.927,0,0,1-29.06-52.53,62,62,0,0,1,62-62A62,62,0,0,1,969.381-397.222Z" transform="translate(-336.706 5323.881)" fill="#fff" stroke="#941bff" stroke-miterlimit="10" stroke-width="0.993"/>
+      <path id="Path_2430" data-name="Path 2430" d="M969.381-397.222a61.927,61.927,0,0,1-29.06,52.53l-8.33-18.49a41.927,41.927,0,0,0,17.39-34.04,42,42,0,0,0-42-42,42,42,0,0,0-42,42,41.927,41.927,0,0,0,17.39,34.04l-8.33,18.49a61.927,61.927,0,0,1-29.06-52.53,62,62,0,0,1,62-62A62,62,0,0,1,969.381-397.222Z" transform="translate(-336.705 5323.881)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_2434" data-name="Path 2434" d="M938.6-348.513l14.722,31.85h83.621" transform="translate(-336.706 5323.881)" fill="none" stroke="#941bff" stroke-miterlimit="10" stroke-width="0.993"/>
+      <text id="_90_" data-name="90%" transform="translate(555.365 4931.938)" fill="#941bff" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">90%</tspan></text>
+      <text id="UX_DESIGN" data-name="UX DESIGN" transform="translate(618.365 4999.938)" fill="#941bff" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">UX DESIGN</tspan></text>
+    </g>
+    <g id="SkillsGroup4" transform="translate(14 10.22)">
+      <path id="Path_2437" data-name="Path 2437" d="M455.071,233.614a62,62,0,1,1,101.51,47.78l-8.67-19.27a42,42,0,1,0-61.68-.01l-8.68,19.28a61.907,61.907,0,0,1-22.48-47.78" transform="translate(53.604 4898.16)" fill="#fff" stroke="#941bff" stroke-miterlimit="10" stroke-width="0.993"/>
+      <path id="Path_2438" data-name="Path 2438" d="M455.071,233.614a62,62,0,1,1,101.51,47.78l-8.67-19.27a42,42,0,1,0-61.68-.01l-8.68,19.28a61.907,61.907,0,0,1-22.48-47.78" transform="translate(53.604 4898.16)" fill="url(#linear-gradient-4)"/>
+      <path id="Path_2439" data-name="Path 2439" d="M553.127,273.847,570.995,312.5h83.621" transform="translate(53.604 4898.16)" fill="none" stroke="#941bff" stroke-miterlimit="10" stroke-width="0.993"/>
+      <text id="_85_2" data-name="85%" transform="translate(555.365 5136.938)" fill="#941bff" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">85%</tspan></text>
+      <text id="HTML_CSS" data-name="HTML+CSS" transform="translate(626.221 5203.663)" fill="#941bff" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">HTML+CSS</tspan></text>
+    </g>
+  </g>
+</svg>
