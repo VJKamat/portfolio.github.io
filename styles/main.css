@@ -398,7 +398,7 @@ h2 span {
 
 .footer {
   background: var(--color-primary100);
-  height: 3em;
+  height: 5em;
   -ms-flex-line-pack: center;
       align-content: center;
   display: -webkit-box;
