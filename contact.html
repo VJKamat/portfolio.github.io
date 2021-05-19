@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="code.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="nav-container">
+            <header>
+                <a href="index.html" class="logo">
+                    <img src="images/Logo.svg">
+                </a>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">My skils</a></li>
+                        <li><a href="#">My work</a></li>
+                        <li><a href="#">My contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="social-header ForBrowser">
+                    <ul>
+                        <li><a href="#"><img src="images/LinkedIn.svg" alt="linkedin" /></a></li>
+                        <li><a href="#"><img src="images/Instagram.svg" alt="instagram" /></a></li>
+                        <li><a href="#"><img src="images/Camera.svg" alt="photography" /></a></li>
+                    </ul>
+                </div>
+
+            </header>
+        </div>
+
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+        integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
+        integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q=="
+        crossorigin="anonymous"></script>
+
+    <script>
+
+        gsap.registerPlugin(ScrollTrigger);
+        var tl = gsap.timeline();
+
+        tl.from('.content', {
+            y: '-30%',
+            opacity: 0,
+            duration: 2,
+            ease: Power4.easeOut
+
+        })
+
+        tl.from('.stagger1', {
+            opacity: 0,
+            y: -50,
+            stagger: .3,
+            duration: 2,
+            ease: Power4.easeOut
+        }, "-=1.5")
+
+        tl.from('.stagger2', {
+            opacity: 0,
+            y: -50,
+            stagger: .2,
+            duration: 1,
+            ease: Power4.easeOut
+        }, "-=1.5")
+
+        tl.from('.stagger3', {
+            opacity: 0,
+            y: -50,
+            stagger: .2,
+            duration: 1,
+            ease: Power4.easeOut
+        }, "-=1.5")
+
+
+        tl.from('.stagger4', {
+            opacity: 0,
+            x: -50,
+            stagger: .2,
+            duration: 1,
+            ease: Power4.easeOut
+        }, "-=1.5")
+
+
+
+        gsap.from('.transition2', {
+            scrollTrigger: {
+                trigger: '.transition2',
+                start: "top bottom"
+            },
+            y: 100,
+            opacity: 0,
+            duration: 1.3,
+            stagger: .5
+
+        }
+        )
+
+        gsap.from('.transition3', {
+            scrollTrigger: {
+                trigger: '.transition3',
+                start: "top bottom",
+                toggleActions: "play restart none none"
+            },
+
+            x: -200,
+            opacity: 0,
+            duration: 1.3,
+            stagger: .5
+
+        }
+        )
+
+        gsap.from('.transition4', {
+            scrollTrigger: {
+                trigger: '.transition4',
+                start: "top bottom",
+                toggleActions: "play restart none none"
+            },
+            x: 200,
+            opacity: 0,
+            duration: 1.3,
+            stagger: .5
+
+        }
+        )
+
+        gsap.from('.transition5', {
+            scrollTrigger: {
+                trigger: '.transition5',
+                start: "top bottom",
+                toggleActions: "play none none none"
+            },
+            y: -100,
+            opacity: 0,
+            duration: 1.3,
+            stagger: .5
+
+        }
+        )
+
+        gsap.from('.transition6', {
+            scrollTrigger: {
+                trigger: '.transition5',
+                start: "top bottom",
+                toggleActions: "play none none none"
+            },
+            y: -100,
+            opacity: 0,
+            duration: 1.3,
+            stagger: .5
+
+        }
+        )
+
+    </script>
+
+</body>
+
+</html>
