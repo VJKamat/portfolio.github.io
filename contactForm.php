@@ -17,7 +17,9 @@ if(isset($_POST['email']) && $_POST['email'] != '')
     $body.= "Email ".$userEmail. "\r\n";
     $body.= "Message ".$message. "\r\n";
 
+    
     mail($to, $subject, $body);
+    header("Location: https://www.vijaykamat.design")
 }
 
 ?>
