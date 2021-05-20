@@ -416,6 +416,8 @@ h2 span {
 .contact {
   padding: 2em;
   position: absolute;
+  -webkit-transition: all 4s ease-in-out;
+  transition: all 4s ease-in-out;
 }
 
 .contact .contact-hero {
@@ -448,7 +450,7 @@ label {
 }
 
 input[type=text] {
-  border: none;
+  border: 1px solid var(--color-neutral500);
   width: 90%;
   padding: 1em;
   margin: 1em;
@@ -460,7 +462,7 @@ input[type=text] {
 }
 
 textarea {
-  border: none;
+  border: 1px solid var(--color-neutral500);
   width: 90%;
   padding: 1em;
   margin: 1em;
