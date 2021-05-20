@@ -19,7 +19,7 @@ if(isset($_POST['email']) && $_POST['email'] != '')
 
     
     mail($to, $subject, $body);
-    header("Location: contactForm.html")
+    header("Location: index.html")
 }
 
 ?>
