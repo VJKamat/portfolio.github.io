@@ -5,6 +5,7 @@ if(isset($_POST['email']) && $_POST['email'] != '')
 
     $userName = $_POST['name'];
     $userEmail = $_POST['email'];
+    $subject = "Message from Porfolio";
     $message = $_POST['message'];
 
 
@@ -16,7 +17,7 @@ if(isset($_POST['email']) && $_POST['email'] != '')
     $body.= "Email ".$userEmail. "\r\n";
     $body.= "Message ".$message. "\r\n";
 
-    mail($to, "Message from Porfolio", $body);
+    mail($to, $subject, $body);
 }
 
 ?>
