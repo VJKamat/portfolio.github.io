@@ -42,10 +42,39 @@
             </header>
         </div>
 
+        <div class="contact">
+            <img src="/images/ContactHero.svg" class="contact-hero" />
 
+
+            <div class="container">
+                <form>
+                    <div class="field" tabindex="1">
+                        <label for="username">
+                            Your Name
+                        </label>
+                        <input name="username" type="text" placeholder="e.g. john doe" required />
+                    </div>
+                    <div class="field" tabindex="2">
+                        <label for="email">
+                            Your Email
+                        </label>
+                        <input name="email" type="text" placeholder="email@domain.com" required>
+                    </div>
+                    <div class="field" tabindex="3">
+                        <label for="message">
+                            Your Message
+                        </label>
+                        <textarea name="message" placeholder="type here" required></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+
+                </form>
+
+            </div>
+
+        </div>
 
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
         integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
         crossorigin="anonymous"></script>
