@@ -19,7 +19,7 @@ if(isset($_POST['email']) && $_POST['email'] != '')
 
     
     mail($to, $subject, $body);
-    header("Location: https://www.vijaykamat.design/index.html")
+    header("Location: https://www.vijaykamat.design")
 }
 
 ?>
