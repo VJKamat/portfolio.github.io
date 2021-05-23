@@ -414,26 +414,30 @@ h2 span {
 }
 
 .contact {
-  padding: 2em;
-  position: absolute;
-  -webkit-transition: all 4s ease-in-out;
-  transition: all 4s ease-in-out;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .contact .contact-hero {
   opacity: 0.1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 .contact .form {
-  position: relative;
-  z-index: 10000;
   display: block;
-  position: absolute;
-  margin-top: -230px;
-  margin-left: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 2em;
+  position: relative;
 }
 
 .contact .form button {
@@ -441,19 +445,70 @@ h2 span {
   display: block;
 }
 
+.contact-card {
+  margin: 0 auto;
+  margin-top: 2em;
+  display: block;
+  background-color: var(--color-neutral100);
+  padding: 2em;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 30px;
+  margin-bottom: 2em;
+  width: 400px;
+  height: 330px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.contact-card .name {
+  color: var(--color-neutral400);
+  font-weight: 600;
+}
+
+.contact-card img {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-card .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2em;
+}
+
+.contact-card .social img {
+  height: 30px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-card p {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.8em;
+}
+
 .field {
   margin-bottom: 2em;
 }
 
 label {
-  margin: 1em;
+  margin-bottom: 1em;
 }
 
 input[type=text] {
   border: 1px solid var(--color-neutral500);
-  width: 90%;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
   padding: 1em;
-  margin: 1em;
   height: 40px;
   border-radius: 9px;
   background: #fff;
@@ -463,9 +518,10 @@ input[type=text] {
 
 textarea {
   border: 1px solid var(--color-neutral500);
-  width: 90%;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
   padding: 1em;
-  margin: 1em;
   height: 150px;
   border-radius: 9px;
   background: #fff;
@@ -477,6 +533,23 @@ input[type=text]:focus, textarea:focus {
   outline: none;
   -webkit-box-shadow: 0px 3px 6px rgba(0, 140, 255, 0.3);
           box-shadow: 0px 3px 6px rgba(0, 140, 255, 0.3);
+}
+
+#mail-status {
+  margin-top: 2em;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.error {
+  padding: 5px 10px;
+  color: red;
+}
+
+.success {
+  padding: 5px 10px;
+  color: var(--color-primary100);
 }
 
 .ForBrowser {

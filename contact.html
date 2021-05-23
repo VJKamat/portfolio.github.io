@@ -10,7 +10,23 @@
     <link rel="stylesheet" href="styles/main.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="code.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script>
+
+        function sendContact() {
+            jQuery.ajax({
+                url: "contactForm.php",
+                data: 'userName=' + $("#userName").val() + '&userEmail=' + $("#userEmail").val() + '&subject=' + $("#subject").val() + '&content=' + $(content).val(),
+                type: "POST",
+                success: function (data) {
+                    $("#mail-status").html(data);
+                },
+                error: function () { }
+            });
+        }
+
+    </script>
+
 
 </head>
 
@@ -42,164 +58,54 @@
             </header>
         </div>
 
+        <div class="contact-card">
+            <img src="/images/VijayKamatImage.png" />
+
+            <p class="name">VIJAY KAMAT</p>
+            <p>vijaykamat@live.com</p>
+            <p>Bangalore, India</p>
+
+            <div class="social">
+                <img src="/images/LinkedInLogo.png" />
+                <img src="/images/InstaLogo.png" />
+                <img src="/images/CameraLogo.png" />
+            </div>
+        </div>
+
         <div class="contact">
+
             <img src="/images/ContactHero.svg" class="contact-hero" />
 
-
             <div class="form">
-                <form action="contactForm.php" method="POST">
-                    <div class="field" tabindex="1">
-                        <label for="username">
-                            Your Name
-                        </label>
-                        <input name="name" type="text" placeholder="e.g. john doe" />
-                    </div>
-                    <div class="field" tabindex="2">
-                        <label for="email">
-                            Your Email
-                        </label>
-                        <input name="email" type="text" placeholder="email@domain.com" required>
-                    </div>
-                    <div class="field" tabindex="3">
-                        <label for="message">
-                            Your Message
-                        </label>
-                        <textarea name="message" placeholder="type here" required></textarea>
-                    </div>
-                    <button type="submit">Send</button>
-                </form>
+                <div class="field" tabindex="1">
+                    <label for="username">
+                        Your Name
+                    </label>
+                    <input name="userName" id="userName" type="text" placeholder="e.g. john doe" />
+                </div>
+                <div class="field" tabindex="2">
+                    <label for="email">
+                        Your Email
+                    </label>
+                    <input name="userEmail" id="userEmail" type="text" placeholder="email@domain.com" required>
+                </div>
+                <div class="field" tabindex="3">
+                    <label for="message">
+                        Your Message
+                    </label>
+                    <textarea name="content" id="content" placeholder="type here" required></textarea>
+                </div>
+
+                <button name="submit" class="btnAction" onclick="sendContact();">Send</button>
+
+                <div id="mail-status"></div>
 
             </div>
 
+
+
+
         </div>
-
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
-        integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
-        integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q=="
-        crossorigin="anonymous"></script>
-
-    <script>
-
-        gsap.registerPlugin(ScrollTrigger);
-        var tl = gsap.timeline();
-
-        tl.from('.content', {
-            y: '-30%',
-            opacity: 0,
-            duration: 2,
-            ease: Power4.easeOut
-
-        })
-
-        tl.from('.stagger1', {
-            opacity: 0,
-            y: -50,
-            stagger: .3,
-            duration: 2,
-            ease: Power4.easeOut
-        }, "-=1.5")
-
-        tl.from('.stagger2', {
-            opacity: 0,
-            y: -50,
-            stagger: .2,
-            duration: 1,
-            ease: Power4.easeOut
-        }, "-=1.5")
-
-        tl.from('.stagger3', {
-            opacity: 0,
-            y: -50,
-            stagger: .2,
-            duration: 1,
-            ease: Power4.easeOut
-        }, "-=1.5")
-
-
-        tl.from('.stagger4', {
-            opacity: 0,
-            x: -50,
-            stagger: .2,
-            duration: 1,
-            ease: Power4.easeOut
-        }, "-=1.5")
-
-
-
-        gsap.from('.transition2', {
-            scrollTrigger: {
-                trigger: '.transition2',
-                start: "top bottom"
-            },
-            y: 100,
-            opacity: 0,
-            duration: 1.3,
-            stagger: .5
-
-        }
-        )
-
-        gsap.from('.transition3', {
-            scrollTrigger: {
-                trigger: '.transition3',
-                start: "top bottom",
-                toggleActions: "play restart none none"
-            },
-
-            x: -200,
-            opacity: 0,
-            duration: 1.3,
-            stagger: .5
-
-        }
-        )
-
-        gsap.from('.transition4', {
-            scrollTrigger: {
-                trigger: '.transition4',
-                start: "top bottom",
-                toggleActions: "play restart none none"
-            },
-            x: 200,
-            opacity: 0,
-            duration: 1.3,
-            stagger: .5
-
-        }
-        )
-
-        gsap.from('.transition5', {
-            scrollTrigger: {
-                trigger: '.transition5',
-                start: "top bottom",
-                toggleActions: "play none none none"
-            },
-            y: -100,
-            opacity: 0,
-            duration: 1.3,
-            stagger: .5
-
-        }
-        )
-
-        gsap.from('.transition6', {
-            scrollTrigger: {
-                trigger: '.transition5',
-                start: "top bottom",
-                toggleActions: "play none none none"
-            },
-            y: -100,
-            opacity: 0,
-            duration: 1.3,
-            stagger: .5
-
-        }
-        )
-
-    </script>
 
 </body>
 
